@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad JS</title>
+</head>
+
+<body>
+    <h1>Actividad JS</h1>
+    <div class="actividad1">
+        <p>Verificar si un número es primo</p>
+        <label for="entrada">Ingresar número</label>
+        <input type="number" id="entrada">
+        <button onclick="verificarNumero()">Verificar</button>
+        <button onclick="reset()">Reset</button>
+        <p id="textoSalida"></p>
+    </div>
+    <hr>
+    <div class="actividad2">
+        <p>Operaciones matemáticas con dos matrices dadas</p>
+        <label for="matriz1">Ingrese un número</label>
+        <input type="number" id="matriz1">
+        <label for="matriz2">Ingrese un número</label>
+        <input type="number" id="matriz2">
+        <p>Elegir operación</p>
+        <button onclick="suma()">+</button>
+        <button onclick="resta()">-</button>
+        <button onclick="multiplicacion()">*</button>
+        <button onclick="division()">/</button>
+        <button onclick="reset1()">Reset</button>
+        <p id="resultado"></p>
+    </div>
+    <hr>
+    <div class="actividad3">
+        <p>Sumar números en un rango de 0 al número ingresado</p>
+        <label for="numero1">Ingrese un número natural</label>
+        <input type="number" id="numero1">
+        <button onclick="sumarRango()">Sumar</button>
+        <button onclick="reset2()">Reset</button>
+        <p id="text1"></p>
+    </div>
+    <hr>
+    <div class="actividad4">
+        <p>Contar vocales de una cadena de texto</p>
+        <label for="cadenaTexto">Ingrese una cadena de texto</label>
+        <input type="text" id="cadenaTexto">
+        <button onclick="contarVocales()">Contar</button>
+        <button onclick="reset3()">Reset</button>
+        <p id="text2"></p>
+    </div>
+    <hr>
+    <div class="actividad5">
+        <p>Devolver una matriz con elementos únicos (sin duplicados)</p>
+        <label for="">Matriz: </label>
+        <input type="text" id="array1">
+        <input type="text" id="array2">
+        <input type="text" id="array3">
+        <input type="text" id="array4">
+        <button onclick="mostrarUnicos()">Mostrar elementos únicos</button>
+        <button onclick="reset4()">Reset</button>
+        <p id="text3"></p>
+    </div>
+    <hr>
+    <div class="actividad6">
+        <p>Invertir una cadena sin usar reverse</p>
+        <label for="Text4">Ingrese un texto</label>
+        <input type="text" id="text4">
+        <button onclick="revertir()">Revertir cadena</button>
+        <button onclick="reset5()">Reset</button>
+        <p id="cadenaInvertida"></p>
+    </div>
+    <hr>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
